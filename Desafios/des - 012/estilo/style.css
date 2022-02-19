@@ -24,6 +24,20 @@ html, body {
     font-family: var(--fonte1);
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #EC111A;
+border: 3px solid black;
+height: 5vh;
+}
+
 header {
     background-color: black;
     color: white;
